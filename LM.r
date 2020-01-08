@@ -1,4 +1,4 @@
-c=as.matrix(read.delim("/home/rsrivast/All_R-Analysis/R-LM/LM_in_28k.txt", sep="\t",header=T, row.names = 1))
+c=as.matrix(read.delim("/LM_in_28k.txt", sep="\t",header=T, row.names = 1))
 m=matrix(ncol=5) # no. of column(basically designing matrix for output)
 
 for(i in 4:nrow(c))
