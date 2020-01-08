@@ -1,4 +1,4 @@
-y=as.data.frame(read.table("/home/rsrivast/R-Anova/Input.txt",sep="\t", header=T))
+y=as.data.frame(read.table("/Input.txt",sep="\t", header=T))
 m=matrix(nrow=1,ncol=55344)
 for(i in 2:ncol(y))
 {
