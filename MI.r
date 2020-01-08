@@ -1,5 +1,5 @@
 library (maigesPack)
-c=as.matrix(read.delim("/home/rsrivast/All_R-Analysis/R-MI/cRBP.txt", sep="\t",header=T, row.names = 1))
+c=as.matrix(read.delim("/cRBP.txt", sep="\t",header=T, row.names = 1))
 m=matrix(ncol=4) # no. of column(basically designing matrix for output)
 
 for(i in 2:nrow(c))
