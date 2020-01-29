@@ -1,5 +1,7 @@
 #This code can be used to generate a scatter plot between two variables and display linear rigression line along with its basic statistics
 
+library (ggplot2)
+
 lm_eqn <- function(m){
     eq <- substitute(italic(y) == a + b %.% italic(x)*","~~italic(pval)~"="~p*","~~italic(r)^2~"="~r2, 
                      list(a = format(coef(m)[1], digits = 2), 
