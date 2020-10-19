@@ -24,3 +24,4 @@ MyPlot=ggplot(mydata, aes(x=X, y=X.1)) +
     geom_smooth(method="lm", se=TRUE, level=0.5)+
     geom_text(x=7.5,y=2.0,size = 3.0, label = lm_eqn(fit), parse = TRUE)
 	
+## Example:https://rpubs.com/RajneeshSrivastava/Project1
